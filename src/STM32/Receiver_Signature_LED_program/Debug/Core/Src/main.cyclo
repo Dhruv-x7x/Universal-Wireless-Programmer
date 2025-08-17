@@ -1,0 +1,7 @@
+../Core/Src/main.c:41:6:TurnOnLED	1
+../Core/Src/main.c:45:6:TurnOffLED	1
+../Core/Src/main.c:49:5:main	6
+../Core/Src/main.c:93:6:process_upload_request	10
+../Core/Src/main.c:156:6:SystemClock_Config	3
+../Core/Src/main.c:189:6:HAL_UART_RxCpltCallback	18
+../Core/Src/main.c:246:6:Error_Handler	1

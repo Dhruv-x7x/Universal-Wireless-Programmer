@@ -1,0 +1,27 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+# Toolchain: GNU Tools for STM32 (13.3.rel1)
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../USB_HOST/App/Boards/Arduino_UNO/programmer.c 
+
+OBJS += \
+./USB_HOST/App/Boards/Arduino_UNO/programmer.o 
+
+C_DEPS += \
+./USB_HOST/App/Boards/Arduino_UNO/programmer.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+USB_HOST/App/Boards/Arduino_UNO/%.o USB_HOST/App/Boards/Arduino_UNO/%.su USB_HOST/App/Boards/Arduino_UNO/%.cyclo: ../USB_HOST/App/Boards/Arduino_UNO/%.c USB_HOST/App/Boards/Arduino_UNO/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_HOST/App -I../USB_HOST/Target -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/AUDIO/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/MTP/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
+
+clean: clean-USB_HOST-2f-App-2f-Boards-2f-Arduino_UNO
+
+clean-USB_HOST-2f-App-2f-Boards-2f-Arduino_UNO:
+	-$(RM) ./USB_HOST/App/Boards/Arduino_UNO/programmer.cyclo ./USB_HOST/App/Boards/Arduino_UNO/programmer.d ./USB_HOST/App/Boards/Arduino_UNO/programmer.o ./USB_HOST/App/Boards/Arduino_UNO/programmer.su
+
+.PHONY: clean-USB_HOST-2f-App-2f-Boards-2f-Arduino_UNO
+

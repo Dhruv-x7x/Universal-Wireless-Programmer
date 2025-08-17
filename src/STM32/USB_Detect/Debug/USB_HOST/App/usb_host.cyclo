@@ -1,0 +1,6 @@
+../USB_HOST/App/usb_host.c:82:6:MX_USB_HOST_Init	8
+../USB_HOST/App/usb_host.c:125:6:MX_USB_HOST_Process	1
+../USB_HOST/App/usb_host.c:133:13:USBH_UserProcess	4
+../USB_HOST/App/usb_host.c:164:13:check_usb_device	3
+../USB_HOST/App/usb_host.c:197:13:classify_usb_device	5
+../USB_HOST/App/usb_host.c:225:20:trigger_arduino_bootloader	6
